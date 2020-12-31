@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="113885" started-at="2020-10-20T18:41:29 IST" finished-at="2020-10-20T18:43:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="113885" started-at="2020-10-20T18:41:29 IST" finished-at="2020-10-20T18:43:23 IST">
+      <class name="TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@1fbf16f]" name="setUpClass" is-config="true" duration-ms="512" started-at="2020-10-20T18:41:29 IST" finished-at="2020-10-20T18:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@1fbf16f]" name="runScenario" duration-ms="113231" started-at="2020-10-20T18:41:30 IST" description="Test Runner" data-provider="scenarios" finished-at="2020-10-20T18:43:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify initiate deposit for web portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Deposit initate event]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@1fbf16f]" name="tearDownClass" is-config="true" duration-ms="102" started-at="2020-10-20T18:43:23 IST" finished-at="2020-10-20T18:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
