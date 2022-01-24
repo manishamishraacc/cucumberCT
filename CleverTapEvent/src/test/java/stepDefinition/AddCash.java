@@ -84,6 +84,7 @@ public class AddCash extends Utility{
 		ut = new Utility();
 		ut.login(data.get(0), data.get(1)); 
 		thread.sleep(2000)
+
 	}
 
 	@And("^Click on add cash, Enter amount and Proceed$")
