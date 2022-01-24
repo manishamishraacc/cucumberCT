@@ -83,7 +83,7 @@ public class AddCash extends Utility{
 		List<String> data = credentials.row(0);
 		ut = new Utility();
 		ut.login(data.get(0), data.get(1));
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 
 	@And("^Click on add cash, Enter amount and Proceed$")
